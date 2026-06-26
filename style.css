@@ -699,25 +699,16 @@
     }
 
     .contact-icon svg {
-        width: 28px;
-        height: 28px;
+        width: 50px;
+        height: 50px;
         color: white;
     }
-
-    /* ICON COLOR */
-    .contact-icon.whatsapp {
-        background: linear-gradient(135deg, #25D366, #1ebe5d);
-    }
-
-    .contact-icon.email {
-        background: linear-gradient(135deg, #2563eb, #1d4ed8);
-    }
-
+    
     .contact-icon{
-        box-shadow:0 6px 18px rgba(0,0,0,0.08);
+        box-shadow:0 6px 18px rgba(82, 82, 82, 0.08);
     }
 
-.contact-card:hover .contact-icon{
+    .contact-card:hover .contact-icon{
         transform:scale(1.12) rotate(3deg);
     }
 
