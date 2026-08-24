@@ -6,13 +6,17 @@
     <title>OPREKCODE - Jasa Pembuatan Website UMKM</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
-            <div class="logo">OPREKCODE.ID</div>
+            <a href="#" class="logo" aria-label="OPREKCODE.ID">
+                <span class="logo-box"><img src="images/Logo OprekCode.id (1).png" alt=""></span>
+                <span>OPREKCODE.ID</span>
+            </a>
             <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false" aria-controls="mobile-menu">
                 <span class="hamburger">
                     <span></span><span></span><span></span>
@@ -31,7 +35,10 @@
         <div id="mobile-menu" class="mobile-menu" hidden>
             <div class="mobile-menu-inner">
                 <div class="mobile-menu-header">
-                    <a href="#" class="mobile-menu-logo">OPREKCODE.ID</a>
+                    <a href="#" class="mobile-menu-logo">
+                        <span class="logo-box"><img src="images/logo.png" alt=""></span>
+                        <span>OPREKCODE.ID</span>
+                    </a>
                 </div>
                 <div class="mobile-sep" aria-hidden="true"></div>
                 <ul>
@@ -53,7 +60,7 @@
                 <h1>Website Profesional untuk <span class="hero-accent">UMKM</span></h1>
                 <p>Jasa pembuatan website yang terjangkau, cepat, dan profesional untuk membantu bisnis UMKM berkembang, dipercaya pelanggan, dan menjangkau lebih banyak pasar.</p>
                 <div class="cta-buttons">
-                    <a href="#contact" class="btn btn-primary">Mulai Sekarang</a>
+                    <a href="#contact" class="btn btn-primary">Pesan Sekarang</a>
                     <a href="#pricing" class="btn btn-secondary">Lihat Paket</a>
                 </div>
             </div>
@@ -81,12 +88,16 @@
                 </div>
                 <div class="about-visual">
                     <div class="service-card">
-                        <div class="service-icon">💼</div>
+                        <div class="service-icon">
+                            <i data-lucide="briefcase-business"></i>
+                        </div>
                         <h3>Fokus UMKM</h3>
                         <p>Kami memahami kebutuhan dan keterbatasan anggaran usaha kecil dan menengah.</p>
                     </div>
                     <div class="service-card" style="margin-top: 2rem;">
-                        <div class="service-icon">⚡</div>
+                        <div class="service-icon">
+                            <i data-lucide="zap"></i>
+                        </div>
                         <h3>Pengerjaan Cepat</h3>
                         <p>Website profesional siap digunakan tanpa mengorbankan kualitas.</p>
                     </div>
@@ -104,22 +115,30 @@
             </div>
             <div class="services-grid">
                 <div class="service-card fade-in">
-                    <div class="service-icon">🎯</div>
+                    <div class="service-icon">
+                        <i data-lucide="target"></i>
+                    </div>
                     <h3>Landing Page UMKM</h3>
                     <p>Cocok untuk bisnis yang membutuhkan website satu halaman yang fokus pada konversi.</p>
                 </div>
                 <div class="service-card fade-in">
-                    <div class="service-icon">🏢</div>
+                    <div class="service-icon">
+                        <i data-lucide="building-2"></i>
+                    </div>
                     <h3>Website Company Profile</h3>
                     <p>Website multi halaman untuk menceritakan profil bisnis dan membangun kepercayaan.</p>
                 </div>
                 <div class="service-card fade-in">
-                    <div class="service-icon">✨</div>
+                    <div class="service-icon">
+                        <i data-lucide="sparkles"></i>
+                    </div>
                     <h3>Website Jasa & Personal Brand</h3>
                     <p>Menampilkan keahlian dan membangun citra profesional secara online.</p>
                 </div>
                 <div class="service-card fade-in">
-                    <div class="service-icon">🛒</div>
+                    <div class="service-icon">
+                        <i data-lucide="shopping-cart"></i>
+                    </div>
                     <h3>Toko Online Sederhana</h3>
                     <p>Mulai jualan online dengan website e-commerce yang rapi dan mudah digunakan.</p>
                 </div>
@@ -136,34 +155,60 @@
             </div>
             <div class="features-grid">
                 <div class="feature-item fade-in">
-                    <div class="feature-icon">🎨</div>
+                    <div class="feature-icon">
+                        <i data-lucide="palette"></i>
+                    </div>
                     <h3>Desain Custom</h3>
                     <p>Setiap desain disesuaikan dengan identitas brand Anda</p>
                 </div>
                 <div class="feature-item fade-in">
-                    <div class="feature-icon">📱</div>
+                    <div class="feature-icon">
+                        <i data-lucide="smartphone"></i>
+                    </div>
                     <h3>Mobile Friendly</h3>
                     <p>Tampilan optimal di semua perangkat dan ukuran layar</p>
                 </div>
                 <div class="feature-item fade-in">
-                    <div class="feature-icon">💬</div>
+                    <div class="feature-icon">
+                        <i data-lucide="message-circle"></i>
+                    </div>
                     <h3>Komunikasi Jelas</h3>
                     <p>Respon cepat dan proses yang transparan</p>
                 </div>
                 <div class="feature-item fade-in">
-                    <div class="feature-icon">💰</div>
+                    <div class="feature-icon">
+                        <i data-lucide="badge-dollar-sign"></i>
+                    </div>
                     <h3>Harga Ramah UMKM</h3>
                     <p>Paket terjangkau untuk usaha kecil</p>
                 </div>
                 <div class="feature-item fade-in">
-                    <div class="feature-icon">🔧</div>
+                    <div class="feature-icon">
+                        <i data-lucide="sliders-horizontal"></i>
+                    </div>
                     <h3>Solusi Fleksibel</h3>
                     <p>Disesuaikan dengan kebutuhan dan tujuan bisnis</p>
                 </div>
                 <div class="feature-item fade-in">
-                    <div class="feature-icon">⭐</div>
+                    <div class="feature-icon">
+                        <i data-lucide="award"></i>
+                    </div>
                     <h3>Hasil Berkualitas</h3>
                     <p>Website profesional yang siap digunakan</p>
+                </div>
+                <div class="feature-item fade-in">
+                    <div class="feature-icon">
+                        <i data-lucide="message-circle"></i>
+                    </div>
+                    <h3>Konsultasi Gratis</h3>
+                    <p>Diskusikan kebutuhan website dan konsep bisnis Anda tanpa biaya.</p>
+                </div>
+                <div class="feature-item fade-in">
+                    <div class="feature-icon">
+                        <i data-lucide="user"></i>
+                    </div>
+                    <h3>Pendampingan Personal</h3>
+                    <p>Pendampingan hingga website siap digunakan.</p>
                 </div>
             </div>
         </div>
@@ -265,12 +310,13 @@
                     <div class="package-name">Paket Premium</div>
                     <div class="package-description">Solusi lengkap untuk branding dan penjualan</div>
                     <ul class="package-features">
-                        <li>Website lengkap / toko online sederhana</li>
+                        <li>Website lengkap / toko online</li>
                         <li>Desain eksklusif</li>
-                        <li>Konsultasi gratis</li>
                         <li>Fitur lanjutan</li>
-                        <li>Sistem manajemen konten</li>
-                        <li>Siap untuk pertumbuhan jangka panjang</li>
+                        <li>Manajemen konten</li>
+                        <li>Siap tumbuh bersama bisnis</li>
+                        <li>Domain + hosting gratis 1 tahun</li>
+                        <li>Optimasi kecepatan website</li>
                     </ul>
                     <a href="#contact" class="btn btn-primary">Pesan via WhatsApp</a>
                 </div>
@@ -362,5 +408,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>lucide.createIcons();</script>
 </body>
 </html>
